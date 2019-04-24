@@ -11,7 +11,7 @@ for i in liste:
 #soru3
 sozluk = {"elma" : "Ağaçta yetişen bir tür meyve" , "salatalık" : "Fidan üzerinde büyüyen bir tür sebze" }
 giris = input("aramak istediğiniz kelimeyi giriniz")
-giris == giris.lower()
+print("lütfen küçük harf kullanınız...")
 while True:
     if giris == "elma":
         print(sozluk["elma"])
